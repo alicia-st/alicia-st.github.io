@@ -1,0 +1,143 @@
+* {
+    font-family: Helvetica, sans-serif;
+    font-size: 22px;
+    background-color: black;
+    color:seashell;
+    text-align: center;
+}
+h2{
+    font-size: 30px;
+}
+h4{
+    font-size: 24px;
+}
+img{
+    width:300px;
+    height:200px;
+}
+header{
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+    height: 100px;
+    width: 1400px;
+    position:fixed;
+    margin-top:0px;
+}
+
+header h1{
+    height:50px;
+    font-size: 30px;
+}
+
+header li{
+    list-style: none;
+    display: inline-flex;
+    padding: 0px 10px;
+    text-decoration: underline;
+}
+header li a{
+    text-decoration: none;
+}
+main{
+    padding:  120px 100px 0 100px;
+    width:1200px;
+    height:auto;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+main .top{
+    background-image: url('./img-mission-background.jpg');
+    width:1200px;
+    height:700px;
+    display: flex;
+    align-items: center;
+}
+
+main .top .text{
+    width:100%;
+}
+
+main .middle{
+    width: 1000px;
+    padding-top: 20px;
+    height:auto;
+    justify-content: center;
+    margin-bottom: 100px;
+    
+}
+main .middle .row-1-img {
+    display: flex;
+    flex-wrap: wrap;
+    height:auto;
+    justify-content: space-between;
+}
+main .middle .row-1-text{
+    position:relative;
+    top: 10px;
+    display:flex;
+    justify-content: space-around;
+}
+main .middle .row-1-text h4{
+    margin:0 0;
+}
+main .middle .row-2-img {
+    padding-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    height:auto;
+    justify-content: center;
+    
+}
+main .middle .row-2-img img{
+    margin: 0 25px;
+}
+main .middle .row-2-text{
+    position:relative;
+    top: 10px;
+    display:flex;
+    justify-content: center;
+}
+main .middle .row-2-text h4{
+    margin:0 0;
+    padding:0 110px;
+}
+
+main .bottom{
+    padding-top: 100px;
+    width:1200px;
+    height:500px;
+    background-image: url('./img-locations-background.jpg');
+    text-align: center;
+    align-items: center;
+}
+main .bottom h2{
+    width:auto;
+    background: none;
+}
+main .container{
+    display:flex;
+    width:1200px;
+    justify-content: center;
+    background: none;
+}
+main .bottom .child{
+    width: 300px;
+    height:auto;
+    background-color: black;
+    margin: 0 20px;
+}
+footer{
+    height:200px;
+    justify-content: center;
+    position: relative;
+    top:5px;
+}
+footer .copyright{
+    float:left;
+    text-align: left !important;
+    margin-left: 20px;
+}
